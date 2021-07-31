@@ -1,7 +1,7 @@
 import React from'react';
 import {Nav, Navbar,Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import main from'./resource/main_icon.png';
+import './resource/main_icon.svg';
 function Navigation(){
     return(
         <div className="Navigation">
@@ -9,7 +9,7 @@ function Navigation(){
     <Container>
     <Navbar.Brand href="App.js">
     <img
-      alt="main"
+      alt=""
       src="/resource/main_icon.png"
       width="30"
       height="30"
