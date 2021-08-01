@@ -10,7 +10,7 @@ function Navigation(){
     <Navbar.Brand href="App.js">
     <img
       alt=""
-      src="/resource/main_icon.png"
+      src={require("./resource/main_icon.png").default}
       width="30"
       height="30"
       className="d-inline-block align-top"
