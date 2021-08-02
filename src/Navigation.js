@@ -10,7 +10,7 @@ function Navigation(){
     <Navbar.Brand href="App.js">
     <img
       alt=""
-      src={require("./resource/main_icon.png").default}
+      src={require("./resource/main_icon.png").default} // 이미지 깨짐 방지.
       width="30"
       height="30"
       className="d-inline-block align-top"
@@ -20,6 +20,7 @@ function Navigation(){
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#features">Features</Nav.Link>
       <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="#">test1</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
