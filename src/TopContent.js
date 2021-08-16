@@ -1,5 +1,6 @@
 import React from 'react';
-
+import './App.css';
+import Button from 'react-bootstrap/Button'
 function TopContent(){
     function handleScroll(){
         window.scroll({
@@ -9,7 +10,10 @@ function TopContent(){
         });
     }
     return(
-        <button type="button" onClick={handleScroll}>Start</button>
+        <div className="content">
+            <h3>나만의 포토폴리오를 쉽게 만들어보세요 !</h3>
+            <Button variant="secondary" size="lg" active onClick={handleScroll}>Start</Button>
+        </div>
 
     );
 }
