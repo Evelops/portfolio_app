@@ -20,7 +20,7 @@ function Navigation(){
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#features">Features</Nav.Link>
       <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <Nav.Link href="#">test1</Nav.Link>
+      <Nav.Link href="#">test1op</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
