@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Navigation from './Navigation';
-import MainContent from './MainContent';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import TopContent from './TopContent';
 
 
 function App() {
@@ -10,9 +12,11 @@ function App() {
       <header className="App-header">
       <Navigation/>
       </header>
-        <div>
-        <MainContent/>
-        </div>
+        <Container fluid>
+          <Row>
+            <TopContent/>
+          </Row>
+        </Container>
     
     </div>
   );
